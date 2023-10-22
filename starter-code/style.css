@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+header,
+main {
+  margin: auto;
+  min-width: 350px;
+}
+
+header {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.7rem;
+  font-weight: 200;
+  margin-bottom: -5px;
+}
+
+h2 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+p {
+  opacity: 50%;
+  line-height: 2.6rem;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 320px;
+  margin: auto;
+}
+
+body {
+  color: rgb(76, 78, 97);
+  background-color: rgb(242, 242, 242);
+
+  font-family: Poppins;
+}
+
+.card {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 4px 0px 0px 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px #b4b3b3;
+
+  height: 235px;
+  width: 330px;
+  min-width: 330px;
+  margin: 18px auto;
+}
+
+.card > div {
+  margin: 25px;
+}
+.card p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.supervisor {
+  border-color: rgb(69, 211, 211);
+}
+
+.team_builder {
+  border-color: rgb(234, 83, 83);
+}
+
+.karma {
+  border-color: rgb(252, 175, 74);
+}
+
+.calculator {
+  border-color: rgb(84, 158, 242);
+}
+
+.img_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 1100px) {
+  header p {
+    width: 500px;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  .card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 15px;
+  }
+
+  .margin_collapse {
+    height: 0.5px;
+  }
+}
